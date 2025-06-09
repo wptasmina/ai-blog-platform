@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import AllBloge from "./allBloge";
 
 export default function Home() {
