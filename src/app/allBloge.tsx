@@ -29,10 +29,10 @@ const blogs: Blog[] = [
 const AllBloge: React.FC = () => {
     return (
         <div>
-            <h1>All Blogs</h1>
+            <h1 className="text-3xl font-bold">All Blogs</h1>
             <ul>
                 {blogs.map((blog) => (
-                    <li key={blog.id} style={{ marginBottom: "1.5rem" }}>
+                    <li key={blog.id} className="border p-4 my-8">
                         <h2>{blog.title}</h2>
                         <p>{blog.summary}</p>
                         <small>
